@@ -33,7 +33,7 @@ public class Patient {
 	}
 
 
-
+//national id
 	public String getNationalId() {
 		return nationalId;
 	}
@@ -45,7 +45,7 @@ public class Patient {
 	}
 
 
-
+//patient
 	public Patient() {
 		super();
 	}
