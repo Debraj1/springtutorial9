@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="patient"
+		class="com.livingoncodes.spring.springtutorial04.Patient"
+		scope="prototype">
+	<constructor-arg value="1"></constructor-arg>
+	<constructor-arg value="Ram"></constructor-arg>
+	<property name="nationalId" value="123456"></property>
+	<property name="address" ref="address"></property>
+	</bean>
+
+	<bean id="address"
+		class="com.livingoncodes.spring.springtutorial04.Address">
+	<constructor-arg name="postcode" value="700108"></constructor-arg>
+	<constructor-arg name="street" value="GLT Rd"></constructor-arg>
+	</bean>
+</beans>
