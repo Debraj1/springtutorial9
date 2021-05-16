@@ -91,6 +91,9 @@ public class Patient {
 	public void eat(int a) {
 		System.out.println("Help me!");
 	}
+	
+	
+	
 
 
 
