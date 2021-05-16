@@ -87,6 +87,10 @@ public class Patient {
 	public void speak() {
 		System.out.println("Help me!");
 	}
+	
+	public void eat(int a) {
+		System.out.println("Help me!");
+	}
 
 
 
