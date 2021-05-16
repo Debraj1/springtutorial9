@@ -12,7 +12,7 @@ public class Patient {
 	
 	
 	
-	
+	//address
 	public Address getAddress() {
 		return address;
 	}
